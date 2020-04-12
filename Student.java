@@ -1,3 +1,5 @@
+import java.util.List;
+
 class Student {
 	String index;
 	String firstName;
@@ -5,7 +7,15 @@ class Student {
 
 	//TODO constructor
 
+
 	//TODO seters & getters
+
+
+
+
+
+	List<Integer> labPoints;
+
 
 	public double getAverage() {
 		//TODO
