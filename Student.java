@@ -73,3 +73,19 @@ class Student {
 		return imaPotpis;
 	}
 }
+
+
+class Course {
+	List<Student>student;
+
+	public Course(List<Student> student) {
+		this.student = student;
+	}
+
+	void add(Student newStudent){
+		student.add(newStudent);
+	}
+	void remove(int index){
+		student.remove(index);
+	}
+}
